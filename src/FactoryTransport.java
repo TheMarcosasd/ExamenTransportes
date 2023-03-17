@@ -1,6 +1,7 @@
+import javax.swing.*;
 public class FactoryTransport {
     public static final int CAMION = 1;
-    public static final int BICICLETA = 2;
+    public static final int BICILETA = 2;
 
     public static final int BARCO = 3;
     public static  Integer codigoDePostal = null;
@@ -16,7 +17,7 @@ public class FactoryTransport {
         peso = Float.valueOf(Integer.parseInt(JOptionPane.showInputDialog("Ingrese el peso")));
         switch (tipo){
             case CAMION: return new Camion(codigoDePostal,lineaX,lineaY,lineaZ,peso);
-            case BICICLETA: return new Bicicleta(codigoDePostal,lineaX,lineaY,lineaZ,peso);
+            case BICILETA: return new Bicileta(codigoDePostal,lineaX,lineaY,lineaZ,peso);
             case BARCO: return new Barco(codigoDePostal,lineaX,lineaY,lineaZ,peso);
             default: return null;
         }

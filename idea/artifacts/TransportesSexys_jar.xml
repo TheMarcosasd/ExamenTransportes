@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TransportesSexys:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TransportesSexys_jar</output-path>
+    <root id="archive" name="TransportesSexys.jar">
+      <element id="module-output" name="TransportesSexys" />
+    </root>
+  </artifact>
+</component>
